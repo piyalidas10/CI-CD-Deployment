@@ -8,16 +8,16 @@
 ## CI/CD Tools
 The top CI/CD tools include popular choices like Jenkins, GitLab CI/CD, GitHub Actions, CircleCI, and Azure DevOps, which are widely used for automating software builds, testing, and deployments. Other strong contenders are TeamCity for robust build management, Bamboo for seamless Atlassian integration, Travis CI for open-source projects, Buddy for simplicity, and Spinnaker for continuous delivery. 
 
-**Jenkins :** An open-source automation server known for its extensive plugin ecosystem and flexibility, making it suitable for various projects. 
-**GitLab CI/CD :** A powerful, integrated platform that provides CI/CD capabilities directly within the GitLab platform for source code management. 
-**GitHub Actions :** Allows for workflow automation and CI/CD directly within GitHub, making it easy to automate tasks from the repository. 
-**CircleCI :** A cloud-based CI/CD platform renowned for its speed, reliability, and ability to automate builds across multiple environments. 
-**Azure DevOps :** Microsoft's comprehensive platform for developer services, offering CI/CD pipelines and integration with other Azure services. 
-**TeamCity :** A user-friendly and powerful CI/CD solution from JetBrains, offering robust build management across various platforms. 
-**Bamboo :** Atlassian's continuous delivery pipeline platform that integrates smoothly with other Atlassian products like Jira and Bitbucket. 
-**Travis CI :** A cloud-based CI/CD tool popular in the open-source community, specifically designed for building and testing projects hosted on GitHub. 
-**Buddy :** Known for its user-friendly interface, Buddy simplifies the creation of CI/CD pipelines and workflows. 
-**Spinnaker :** A continuous delivery platform developed by Netflix that excels at automating the deployment process, especially for cloud-native applications. 
+**Jenkins :** An open-source automation server known for its extensive plugin ecosystem and flexibility, making it suitable for various projects.   
+**GitLab CI/CD :** A powerful, integrated platform that provides CI/CD capabilities directly within the GitLab platform for source code management.     
+**GitHub Actions :** Allows for workflow automation and CI/CD directly within GitHub, making it easy to automate tasks from the repository.   
+**CircleCI :** A cloud-based CI/CD platform renowned for its speed, reliability, and ability to automate builds across multiple environments.   
+**Azure DevOps :** Microsoft's comprehensive platform for developer services, offering CI/CD pipelines and integration with other Azure services.   
+**TeamCity :** A user-friendly and powerful CI/CD solution from JetBrains, offering robust build management across various platforms.   
+**Bamboo :** Atlassian's continuous delivery pipeline platform that integrates smoothly with other Atlassian products like Jira and Bitbucket.   
+**Travis CI :** A cloud-based CI/CD tool popular in the open-source community, specifically designed for building and testing projects hosted on GitHub.   
+**Buddy :** Known for its user-friendly interface, Buddy simplifies the creation of CI/CD pipelines and workflows.   
+**Spinnaker :** A continuous delivery platform developed by Netflix that excels at automating the deployment process, especially for cloud-native applications.   
 
 ## Application Security Tools
 Application security tools are specialized software designed to identify, assess, and mitigate vulnerabilities in applications throughout the software development lifecycle. These tools help teams secure applications from common threats, ensuring data confidentiality, integrity, and availability. 
