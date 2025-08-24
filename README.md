@@ -32,10 +32,30 @@ CI/CD (Continuous Integration/Continuous Deployment) security tools are designed
 ## CI/CD Security Tools
 CI/CD (Continuous Integration/Continuous Deployment) security tools are designed to integrate security checks and validations into the CI/CD pipeline, ensuring that security vulnerabilities are identified and addressed before the code is deployed to production. The primary goal is to shift security left in the development lifecycle, so potential issues are spotted as early as possible.
 
-  -  If you want enterprise-grade SAST + SCA with full DevSecOps integration → Checkmarx.
-  -  If you prefer cloud-native SaaS with SAST+DAST → Veracode.
-  -  If you want code quality + some security → SonarQube.
-  -  If you focus on open-source vulnerabilities & container security → Snyk.
+**🛠️ When to Use What**
+✅ If you want secure coding practices → Checkmarx or Coverity
+✅ If you want enterprise security & compliance → Veracode
+✅ If you want to monitor security incidents/logs → Splunk
+✅ If you want to scan running web apps/APIs → Acunetix or OWASP ZAP
+✅ If you want test coverage visibility → Codecov
+
+**👉 In short:**
+  -  Veracode & Checkmarx = All-in-one app security platforms.
+  -  Coverity = Deep static code analysis (especially C/C++).
+  -  Acunetix & ZAP = Web app DAST scanners.
+  -  Splunk = Monitoring/logs/security event detection.
+  -  Codecov = Code coverage (not security).
+
+| Tool          | Category           | Strengths                                         | Weaknesses                    |
+| ------------- | ------------------ | ------------------------------------------------- | ----------------------------- |
+| **Veracode**  | SAST + DAST + SCA  | Cloud-based, compliance reporting, broad coverage | Can be slower, pricey         |
+| **Coverity**  | SAST               | Deep code analysis, strong for C/C++              | Complex setup, not SaaS-first |
+| **Splunk**    | SIEM               | Logs, anomaly detection, security monitoring      | Not for code scanning         |
+| **Checkmarx** | SAST + SCA + IaC   | Developer-focused, strong integrations            | Pricing & complexity          |
+| **Acunetix**  | DAST               | Easy web vuln scanning, fast setup                | Narrow scope (only DAST)      |
+| **OWASP ZAP** | DAST (open source) | Free, flexible, widely supported                  | Less automation/reporting     |
+| **Codecov**   | Test coverage      | Great for CI/CD visibility                        | Not security-focused          |
+
 
 Veracode
 -------------------------------------------------------------
