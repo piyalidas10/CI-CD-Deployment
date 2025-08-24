@@ -12,7 +12,10 @@ The top CI/CD tools include popular choices like Jenkins, GitLab CI/CD, GitHub A
 **GitLab CI/CD :** A powerful, integrated platform that provides CI/CD capabilities directly within the GitLab platform for source code management.     
 **GitHub Actions :** Allows for workflow automation and CI/CD directly within GitHub, making it easy to automate tasks from the repository.   
 **CircleCI :** A cloud-based CI/CD platform renowned for its speed, reliability, and ability to automate builds across multiple environments.   
-**Azure DevOps :** Microsoft's comprehensive platform for developer services, offering CI/CD pipelines and integration with other Azure services.   
+**Azure DevOps :** Microsoft's comprehensive platform for developer services, offering CI/CD pipelines and integration with other Azure services.  
+**Bitbucket Pipelines :** An integrated CI/CD solution within Bitbucket for automating builds, tests, and deployments directly from your repository.   
+**AWS CodePipeline :** Amazon Web Services' service for orchestrating CI/CD pipelines, integrating with various AWS services to automate releases.   
+**GoCD :** An open-source tool focused on continuous delivery with an emphasis on visualizing and managing complex workflows.   
 **TeamCity :** A user-friendly and powerful CI/CD solution from JetBrains, offering robust build management across various platforms.   
 **Bamboo :** Atlassian's continuous delivery pipeline platform that integrates smoothly with other Atlassian products like Jira and Bitbucket.   
 **Travis CI :** A cloud-based CI/CD tool popular in the open-source community, specifically designed for building and testing projects hosted on GitHub.   
