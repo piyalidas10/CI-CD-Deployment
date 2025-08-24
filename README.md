@@ -83,6 +83,7 @@ Checkmarx
 --------------------------------------------------------------
 Checkmarx is a software security platform that focuses on Application Security Testing (AST) to help developers identify and fix vulnerabilities early in the software development lifecycle (SDLC). It’s widely used in DevSecOps pipelines because it integrates well with CI/CD tools, Git repositories, and IDEs.
 
+  - Checkmarx offers both SAST and DAST capabilities as part of its comprehensive Checkmarx One application security platform.
   - Enterprise-grade SAST + SCA with full DevSecOps integration
   - Shift-left security: find vulnerabilities before production.
   - Automates compliance with OWASP Top 10, SANS 25, PCI DSS, etc.
@@ -94,4 +95,62 @@ Checkmarx is a software security platform that focuses on Application Security T
   - API Security : Tests API definitions (Swagger, OpenAPI) for vulnerabilities.
   - Integration into CI/CD : Works with Jenkins, GitHub Actions, GitLab CI, Azure DevOps, CircleCI, etc. Automates scans as part of the build pipeline.
   - Developer-Friendly Tools : Plugins for VS Code, IntelliJ, Eclipse, etc. Provides remediation guidance and secure coding practices.
+
+Acunetix
+--------------------------------------------------------------
+Acunetix is a web application security testing tool that focuses on detecting vulnerabilities in websites, web apps, and APIs. It’s widely used by security teams and DevOps engineers to automate vulnerability scanning during development and in production.
+
+  -  Acunetix is primarily a DAST (Dynamic Application Security Testing) tool, which tests applications by simulating external attacks from a "black-box" perspective, without needing access to the source code
+  -  Automated Vulnerability Scanning : Detects OWASP Top 10 issues like SQL Injection, Cross-Site Scripting (XSS), CSRF, SSRF, and more.
+  -  Web Application & API Security : Scans REST, SOAP, GraphQL APIs, Single-Page Applications (SPAs), and modern frameworks like React, Angular, Vue.
+  -  Network Security Checks : Includes scanning for open ports, misconfigurations, and weak SSL/TLS.
+  -  Continuous Integration Support : Integrates with CI/CD tools (Jenkins, GitHub Actions, GitLab CI/CD, Azure DevOps, etc.).
+  -  Compliance Reporting : Generates reports for PCI DSS, HIPAA, ISO 27001, OWASP Top 10, GDPR, etc.
+  -  Crawler & Scanner: Deep crawling of complex apps (including JavaScript-heavy SPAs).
+  -  Interactive Application Security Testing (IAST): Works with AcuSensor to give more accurate results with fewer false positives.
+  -  Risk Prioritization: Shows severity levels and remediation guidance.
+  -  Team Collaboration: Supports multi-user roles and workflows for enterprises.
+  -  Integration: Connects with Jira, GitHub, GitLab, Azure, Slack, and other DevOps/SecOps tools.
+
+OWASP Zed Attack Proxy (ZAP)
+--------------------------------------------------------------
+A full featured free and open source DAST tool that includes both automated scanning for vulnerabilities and tools to assist expert manual web app pen testing.
+
+  -  A man-in-the-middle proxy tool designed to find vulnerabilities in web applications.
+  -  Can intercept, inspect, and modify traffic between the browser and web application.
+  -  Useful for manual security testing as well as automated scanning.
+  -  Designed for beginners but powerful enough for professionals.
+  -  Intercepting Proxy : Allows you to view and modify requests/responses.
+  -  Automated Scanning : Passive & active scanning for vulnerabilities (SQLi, XSS, CSRF, insecure headers, etc.).
+  -  Spidering & Crawling : Discovers endpoints and application paths automatically.
+  -  Fuzzer : Sends large volumes of custom payloads to test input validation.
+  -  API Security Testing : Supports OpenAPI, SOAP, GraphQL scanning.
+  -  Authentication Testing : Can handle session tokens, login pages, SSO, etc.
+  -  Plug-in Marketplace : Extend functionality with community add-ons.
+  -  Automation & CI/CD : Works with Jenkins, GitHub Actions, GitLab CI, etc.
+  -  Scripting Support : Supports scripting in Python, JavaScript, Groovy, and others.
+  -  Cross-Platform : Runs on Windows, Linux, macOS, and even as a Docker container.
+
+OWASP (Open Worldwide Application Security Project) is a non-profit organization that works to improve the security of software through community-led projects, standards, tools, and educational resources. It’s one of the most recognized authorities in the field of application security.
+
+  -  OWASP Top 10 → A list of the most critical security risks to web applications, updated regularly (latest version: 2021).
+  -  OWASP Projects → Community-driven tools & guides like:
+        -  OWASP ZAP (Zed Attack Proxy) → Free DAST tool.
+        -  Cheat Sheet Series → Best practices for secure coding.
+        -  OWASP Dependency-Check → Detects vulnerable libraries.
+        -  OWASP ASVS (Application Security Verification Standard) → Framework for testing application security.
+  - Security Training & Awareness → Conferences, meetups, and documentation.
+  - Compliance & Standards Alignment → Many companies align their AppSec programs with OWASP standards.
+
+OWASP Top 10 (2021 Categories)
+  -  Broken Access Control
+  -  Cryptographic Failures (previously Sensitive Data Exposure)
+  -  Injection (SQLi, NoSQLi, LDAP, etc.)
+  -  Insecure Design
+  -  Security Misconfiguration
+  -  Vulnerable & Outdated Components
+  -  Identification & Authentication Failures
+  -  Software & Data Integrity Failures
+  -  Security Logging & Monitoring Failures
+  -  Server-Side Request Forgery (SSRF)
 
