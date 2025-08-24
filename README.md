@@ -154,3 +154,17 @@ OWASP Top 10 (2021 Categories)
   -  Security Logging & Monitoring Failures
   -  Server-Side Request Forgery (SSRF)
 
+
+Codecov | Code Coverage
+--------------------------------------------------------------
+Codecov is a code coverage reporting tool that integrates with CI/CD pipelines to help teams understand how well their codebase is tested. It focuses on providing insights into test coverage, highlighting untested parts of your code, and ensuring that changes don’t reduce coverage quality.
+
+  -  Multi-language support: Works with most programming languages (Python, JavaScript, Java, Go, C/C++, Ruby, PHP, etc.).
+  -  Coverage visualization: Generates reports with line-by-line annotations showing which lines are covered by tests.
+  -  Pull request integration: Adds coverage checks and comments directly into GitHub, GitLab, or Bitbucket PRs/MRs.
+  -  Coverage thresholds: You can enforce minimum coverage requirements (e.g., block merging if coverage drops below 80%).
+  -  Test impact analysis: Helps spot untested code paths introduced by recent changes.
+  -  CI/CD compatibility: Works with GitHub Actions, GitLab CI, CircleCI, Jenkins, Travis CI, and many more.
+  -  Security & privacy: Offers both cloud and self-hosted options.
+
+
