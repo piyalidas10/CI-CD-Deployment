@@ -32,12 +32,12 @@ CI/CD (Continuous Integration/Continuous Deployment) security tools are designed
 ## CI/CD Security Tools
 CI/CD (Continuous Integration/Continuous Deployment) security tools are designed to integrate security checks and validations into the CI/CD pipeline, ensuring that security vulnerabilities are identified and addressed before the code is deployed to production. The primary goal is to shift security left in the development lifecycle, so potential issues are spotted as early as possible.
 
-**🛠️ When to Use What**
-✅ If you want secure coding practices → Checkmarx or Coverity
-✅ If you want enterprise security & compliance → Veracode
-✅ If you want to monitor security incidents/logs → Splunk
-✅ If you want to scan running web apps/APIs → Acunetix or OWASP ZAP
-✅ If you want test coverage visibility → Codecov
+**🛠️ When to Use What**    
+✅ If you want secure coding practices → Checkmarx or Coverity    
+✅ If you want enterprise security & compliance → Veracode    
+✅ If you want to monitor security incidents/logs → Splunk    
+✅ If you want to scan running web apps/APIs → Acunetix or OWASP ZAP    
+✅ If you want test coverage visibility → Codecov    
 
 **👉 In short:**
   -  Veracode & Checkmarx = All-in-one app security platforms.
