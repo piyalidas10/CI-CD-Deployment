@@ -1,1 +1,50 @@
+name: workflow
 
+on:
+  workflow_call:
+        inputs:
+          deployment-url:
+            description: 'The target environment for deployment'
+            required: true
+            type: string
+            default: http://google.com
+          project-id:
+            default: 'r21312ddwq'
+            type: string
+          sonarqube-token:
+            default: http://google.com
+            type: string
+          synk-token:
+            default: http://google.com
+            type: string
+          synk-target-folder:
+            default: 'synk-scan'
+            type: string
+            description: 'The target folder for scan docs'
+            
+
+jobs:
+  prebuild:
+    runs-on:
+    
+    steps:
+      -  name: add certifications
+         uses: https://github.com/piyalidas10/Splunk-github-actions/blob/main/.github/workflows/main.yml@main
+      -  name: nodejs installed
+         run: | c:\nodejs\nodejs.exe
+      -  name: sonarqube scan
+         uses: 
+      -  name: synk install & scan
+         uses: synk-cli@v1
+         with:
+               synk-token: ${{}}
+               synk-id: ${{inputs.project-id}}
+               synk-exclude: 'testcases, docs' // folder names
+               synk-target-folder: ${{inputs.synk-target-folder}}
+      -  name: jfrog install & scan
+         uses: jfrog-cli@v1
+         with:
+               jfrog-token: ${{}}
+               synk-id: ${{inputs.project-id}}
+               jfrog-host: ${{inputs.deployment-url}}
+    
