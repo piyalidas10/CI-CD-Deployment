@@ -22,7 +22,7 @@ on:
       - 'config/*.yaml' # Triggers only if changes are made to .yaml files in the 'config' directory
 jobs:
   build:
-    uses: piyalidas10/Splunk-github-actions/blob/main/.github/workflows/{{main-artifcat}}.yml
+    uses: piyalidas10/CI-CD-Deployment/blob/main/docs/main-artifact.yml
     with: 
 ```
 
