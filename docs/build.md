@@ -23,6 +23,7 @@ on:
 jobs:
   build:
     uses: piyalidas10/Splunk-github-actions/blob/main/.github/workflows/{{main-artifcat}}.yml
+    with: 
 ```
 
 
