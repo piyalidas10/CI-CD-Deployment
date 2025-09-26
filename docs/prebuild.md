@@ -13,7 +13,7 @@ permissions:
   security-events: write # Required to upload security scan results
 
 on:
-  push:
+  pull_request:
     branches:
       - main # Triggers on pushes to the 'main' branch
       - 'feature/*' # Triggers on pushes to any branch starting with 'feature/'
@@ -23,6 +23,7 @@ on:
 jobs:
   build:
     uses: piyalidas10/Splunk-github-actions/blob/main/.github/workflows/{{main-artifcat}}.yml
+    with: 
 ```
 
 
