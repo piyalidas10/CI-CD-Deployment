@@ -5,6 +5,9 @@
    - YAML is a human-readable data serialization format that is commonly used in DevOps. YAML provides several benefits for DevOps, including ease of use, readability, and flexibility. YAML can be used in DevOps for a variety of tasks, such as defining infrastructure, describing deployments, and configuring pipelines.
    - YAML is well-suited for configuration files due to its structured and readable format. It simplifies the process of defining configurations by using indentation and key-value pairs, making it manageable and adaptable for various software applications.
 
+## Tutorials
+1. CI/CD CRASH COURSE For Beginners | Jenkins, GitHub Actions, GitLab : https://www.youtube.com/watch?v=ixNNyLcWXX8
+
 ## CI/CD Tools
 The top CI/CD tools include popular choices like Jenkins, GitLab CI/CD, GitHub Actions, CircleCI, and Azure DevOps, which are widely used for automating software builds, testing, and deployments. Other strong contenders are TeamCity for robust build management, Bamboo for seamless Atlassian integration, Travis CI for open-source projects, Buddy for simplicity, and Spinnaker for continuous delivery. 
 
